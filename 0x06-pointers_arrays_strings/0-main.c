@@ -14,7 +14,12 @@ int main(void)
 
 	printf("%s\n", s1);
 	printf("%s", s2);
-	ptr = _strcat(s1, s2);
+	trncat - Concatenates two strings using at most
+		 * an inputed nymber of bytes from src
+		 *  * @dest: The string to be appended upon
+		 *   * @src: The srting to be appended to dest
+		 *    * @n: The number of bytes from src to be appended to dest
+		 *     * Return: A pointer to the resulting string desttr = _strcat(s1, s2);
 	printf("%s", s1);
 	printf("%s", s2);
 	printf("%s", ptr);
